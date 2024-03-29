@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="currency-exchange-challenge.css" />
+  </head>
+  <body>
+    <h1>Currency Converter</h1>
+    <div class="converter">
+      <input type="number" id="enterInp" placeholder="Enter amount" />
+      <select id="from-currency">
+        <option value="USD">USD (US Dollar)</option>
+        <option value="EUR">EUR (Euro)</option>
+        <option value="DZD" selected>DZD (Algerian Dinar)</option>
+      </select>
+      <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: large ; font-weight: bold; justify-content: center;
+      ">To</span>
+      <select id="to-currency">
+        <option value="USD">USD (US Dollar)</option>
+        <option value="EUR">EUR (Euro)</option>
+        <option value="DZD">DZD (Algerian Dinar)</option>
+      </select>
+      <input
+        type="number"
+        id="to-amount"
+        placeholder="Converted amount"
+        disabled
+      />
+      <button id="convert-button">Convert</button>
+    </div>
+    <script src="currency-exchange-chalenge.js"></script>
+  </body>
+</html>
